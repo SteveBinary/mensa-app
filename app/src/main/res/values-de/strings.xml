@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="saturday">Samstag</string>
+    <string name="sunday">Sonntag</string>
+    <string name="error">Fehler</string>
+    <string name="not_connected_to_network">Du bist mit keinem Netzwerk verbunden!</string>
+    <string name="refresh_menus">Essen aktualisieren</string>
+    <string name="error_fetching_menus">Es ist ein Fehler bei der Aktualisierung der neusten Essen aufgetreten!</string>
+    <string name="settings">Einstellungen</string>
+    <string name="menus">Essen</string>
+    <string name="orders">Bestellungen</string>
+    <string name="order">Bestellen</string>
+    <string name="increment_number">Zahl erhöhen</string>
+    <string name="decrement_number">Zahl verringern</string>
+    <string name="price_category">Preiskategorie</string>
+    <string name="price_category_student">Student</string>
+    <string name="price_category_guest">Gast</string>
+    <string name="number_of_chosen_menus">Gewählte Essen</string>
+    <string name="total">Gesamt</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="successful">erfolgreich</string>
+    <string name="error_ordering_menus">Es ist ein Fehler beim bestellen der Essen aufgetreten!</string>
+    <string name="price_category_employee">Bediensteter</string>
+    <string name="accept_eula_surrounding_text">Die %s des Studierendenwerks akzeptieren</string>
+    <string name="eula_term">Nutzungsvereinbarungen</string>
+    <string name="show_food_additives_and_allergens">Zusatzstoffe und Allergene anzeigen</string>
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Nachname</string>
+    <string name="email">E-Mail</string>
+    <string name="payment_is_made_upon_pickup">Die Bezahlung erfolgt bei Abholung</string>
+    <string name="app_widget_description">Mensa App Widget</string>
+    <string name="default_widget_text">Du hast für heute kein Essen bestellt.</string>
+    <string name="widget_text_singular">Du hast ein Essen für heute bestellt!</string>
+    <string name="widget_text_plural">Du hast %1$d Essen für heute bestellt!</string>
+    <string name="you_must_choose_a_time">Du musst eine Uhrzeit wählen!</string>
+    <string name="you_must_consent_to_the_eula">Du musst den Nutzungsvereinbarungen des Studierendenwerks zustimmen.</string>
+    <string name="check_user_settings">Gebe einen Namen und eine korrekte E-Mail-Adresse an.</string>
+    <string name="show_past_orders">Vergangene Bestellungen anzeigen</string>
+
+</resources>

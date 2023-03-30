@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">Mensa App</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="error">Error</string>
+    <string name="not_connected_to_network">You are not connected to a network!</string>
+    <string name="refresh_menus">Refresh menus</string>
+    <string name="error_fetching_menus">There was an error while refreshing the newest menus!</string>
+    <string name="settings">Settings</string>
+    <string name="menus">Menus</string>
+    <string name="orders">Orders</string>
+    <string name="order">Order</string>
+    <string name="increment_number">increment number</string>
+    <string name="decrement_number">decrement number</string>
+    <string name="price_category">price category</string>
+    <string name="price_category_student">Student</string>
+    <string name="price_category_guest">Guest</string>
+    <string name="number_of_chosen_menus">chosen menus</string>
+    <string name="total">total</string>
+    <string name="cancel">Cancel</string>
+    <string name="successful">successful</string>
+    <string name="error_ordering_menus">There was an error while ordering your selected menus!</string>
+    <string name="price_category_employee">Employee</string>
+    <string name="accept_eula_surrounding_text">Accept the %s of the student union</string>
+    <string name="eula_term">user agreements</string>
+    <string name="show_food_additives_and_allergens">Show food additives and allergens</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">E-Mail</string>
+    <string name="payment_is_made_upon_pickup">Payment is made upon pickup</string>
+    <string name="app_widget_description">Mensa App Widget</string>
+    <string name="default_widget_text">You haven\'t ordered anything today.</string>
+    <string name="widget_text_singular">You have ordered one meal today!</string>
+    <string name="widget_text_plural">You have ordered %1$d meals today!</string>
+    <string name="you_must_choose_a_time">You must choose a time!</string>
+    <string name="you_must_consent_to_the_eula">You must consent to the user agreements of the student union.</string>
+    <string name="check_user_settings">You must provide a name and a valid e-mail.</string>
+    <string name="show_past_orders">Show past orders</string>
+
+</resources>
