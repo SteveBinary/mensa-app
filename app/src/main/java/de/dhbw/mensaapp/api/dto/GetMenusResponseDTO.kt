@@ -17,7 +17,7 @@ data class GetMenusResponseDTO(
 
 data class MenusPerDayDTO(
     @SerializedName("essen")
-    val menus: List<MenuDTO>,
+    val menus: List<MenuDTO>?,
     @SerializedName("tag")
     val day: DayDTO
 )
@@ -83,9 +83,8 @@ fun GetMenusResponseDTO.toOrders(): ChosenMenusPerDay {
             entry.key.toDay()
         }
         .mapValues { entry ->
-            entry.value
-                .menus
-                .map(MenuDTO::toMenu)
+            val menuDTOs = entry.value.menus ?: emptyList()
+            menuDTOs.map(MenuDTO::toMenu)
                 .associateWith { ParcelablePair(null, 0) }
         }
 }
