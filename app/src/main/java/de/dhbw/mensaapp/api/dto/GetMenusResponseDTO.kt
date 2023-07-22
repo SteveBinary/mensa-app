@@ -86,5 +86,11 @@ fun GetMenusResponseDTO.toOrders(): ChosenMenusPerDay {
             val menuDTOs = entry.value.menus ?: emptyList()
             menuDTOs.map(MenuDTO::toMenu)
                 .associateWith { ParcelablePair(null, 0) }
+        }.let {
+            if (it.values.sumOf { a -> a.values.size } == 0) {
+                emptyMap()
+            } else {
+                it
+            }
         }
 }

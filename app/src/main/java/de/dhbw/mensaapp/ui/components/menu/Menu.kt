@@ -16,7 +16,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.style.Hyphens
 import androidx.compose.ui.unit.dp
 import de.dhbw.mensaapp.R
@@ -119,7 +118,7 @@ fun Menu(
     }
 }
 
-@OptIn(ExperimentalTextApi::class)
+
 @Composable
 fun MenuBriefInformation(modifier: Modifier, appSettings: AppSettings, numberChosen: Int, menu: Menu) {
     Column(modifier) {

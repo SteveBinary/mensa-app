@@ -41,5 +41,7 @@
     <string name="you_must_consent_to_the_eula">Du musst den Nutzungsvereinbarungen des Studierendenwerks zustimmen.</string>
     <string name="check_user_settings">Gebe einen Namen und eine korrekte E-Mail-Adresse an.</string>
     <string name="show_past_orders">Vergangene Bestellungen anzeigen</string>
+    <string name="no_menus_can_be_ordered">Im Moment können keine Essen bestellt werden.</string>
+    <string name="swipe_down_to_refresh">Zum Aktualisieren herunter wischen.</string>
 
 </resources>

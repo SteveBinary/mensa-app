@@ -41,5 +41,7 @@
     <string name="you_must_consent_to_the_eula">You must consent to the user agreements of the student union.</string>
     <string name="check_user_settings">You must provide a name and a valid e-mail.</string>
     <string name="show_past_orders">Show past orders</string>
+    <string name="no_menus_can_be_ordered">No menus can be ordered at the moment.</string>
+    <string name="swipe_down_to_refresh">Swipe down to refresh.</string>
 
 </resources>
