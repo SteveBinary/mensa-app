@@ -3,6 +3,14 @@
 Das Mensa-Essen des Studierendenwerks an der DHBW Heidenheim muss vorbestellt werden.
 Es existiert eine nicht sonderlich benutzerfreundliche Webseite, auf der das Essen der nächsten Tage angesehen und bestellt werden kann.
 
+## Installation
+
+1. APK herunterladen: [app/release/app-release-apk](https://github.com/SteveBinary/mensa-app/blob/main/app/release/app-release.apk)
+2. `Installation aus unbekannten Quellen` muss aktiviert sein.
+3. APK installieren
+   - In der Datien-App z.B. unter Downloads die APK anklicken und die Installation bestätigen.
+   - Für die Dateien-App muss dafür die `Installation aus unbekannten Quellen` aktiviert sein.
+
 ## Mindestanforderungen der App
 
 - Essen der nächsten Tage strukturiert anzeigen
