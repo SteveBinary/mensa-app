@@ -9,7 +9,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun InformationChip(text: String, modifier: Modifier = Modifier, enabled: Boolean = false, highlightColor: Boolean = false, onClick: () -> Unit = {}) {
     SuggestionChip(
